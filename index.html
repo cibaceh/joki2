@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joki Tugasku Official - Solusi Akademik Profesional</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading" id="loading">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">Joki Tugasku Official</div>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#order">Pesan</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <a href="#order" class="cta-button">Pesan Sekarang</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Solusi Akademik Profesional Terpercaya</h1>
+                <p>Kami membantu Anda menyelesaikan tugas akademik dengan kualitas tinggi, tepat waktu, dan harga terjangkau. Dengan tim ahli berpengalaman di berbagai bidang.</p>
+                <div class="hero-buttons">
+                    <a href="#order" class="btn-primary">Pesan Sekarang</a>
+                    <a href="#contact" class="btn-secondary">Konsultasi</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card">
+                    <i class="fas fa-graduation-cap" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+                    <h3>Kualitas Terjamin</h3>
+                    <p>100% Original, Bebas Plagiarisme</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Layanan Profesional Kami</h2>
+                <p>Berbagai solusi akademik yang disesuaikan dengan kebutuhan Anda</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-edit service-icon"></i>
+                    <h3>Penulisan Essay & Artikel</h3>
+                    <p>Jasa penulisan essay akademik, artikel ilmiah, dan konten berkualitas tinggi dengan referensi terpercaya.</p>
+                    <ul class="service-features">
+                        <li>Bebas plagiarisme 100%</li>
+                        <li>Referensi ilmiah terpercaya</li>
+                        <li>Revisi unlimited</li>
+                        <li>Sesuai format yang diminta</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-calculator service-icon"></i>
+                    <h3>Tugas Matematika & Statistik</h3>
+                    <p>Bantuan menyelesaikan soal matematika, statistik, dan analisis data dengan metode yang tepat.</p>
+                    <ul class="service-features">
+                        <li>Penyelesaian step-by-step</li>
+                        <li>Berbagai tingkat kesulitan</li>
+                        <li>Penjelasan detail</li>
+                        <li>Verifikasi hasil akurat</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-chart-line service-icon"></i>
+                    <h3>Presentasi & Proposal</h3>
+                    <p>Pembuatan presentasi profesional dan proposal bisnis yang menarik dan persuasif.</p>
+                    <ul class="service-features">
+                        <li>Design modern & menarik</li>
+                        <li>Konten terstruktur</li>
+                        <li>Template profesional</li>
+                        <li>Animasi dan transisi</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-code service-icon"></i>
+                    <h3>Programming & Coding</h3>
+                    <p>Bantuan menyelesaikan tugas programming dalam berbagai bahasa pemrograman.</p>
+                    <ul class="service-features">
+                        <li>Java, Python, C++, PHP</li>
+                        <li>Web Development</li>
+                        <li>Database Design</li>
+                        <li>Dokumentasi lengkap</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-microscope service-icon"></i>
+                    <h3>Penelitian & Analisis</h3>
+                    <p>Jasa penelitian mendalam dan analisis data untuk skripsi, thesis, dan paper ilmiah.</p>
+                    <ul class="service-features">
+                        <li>Metodologi penelitian</li>
+                        <li>Analisis data kuantitatif</li>
+                        <li>Literature review</li>
+                        <li>Laporan komprehensif</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-language service-icon"></i>
+                    <h3>Translation & Proofreading</h3>
+                    <p>Layanan penerjemahan dan proofreading dokumen akademik dengan akurasi tinggi.</p>
+                    <ul class="service-features">
+                        <li>Bahasa Indonesia - Inggris</li>
+                        <li>Grammar check</li>
+                        <li>Format consistency</li>
+                        <li>Native speaker quality</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Form Section -->
+    <section class="order-section" id="order">
+        <div class="container">
+            <div class="section-title">
+                <h2>Formulir Pemesanan Layanan</h2>
+                <p>Isi form di bawah ini untuk memesan layanan kami dengan mudah dan cepat</p>
+            </div>
+            <div class="order-form-container">
+                <form id="orderForm" class="order-form" enctype="multipart/form-data">
+                    <div class="form-step active" id="step1">
+                        <div class="step-header">
+                            <h3>Informasi Personal</h3>
+                            <p>Masukkan data diri Anda</p>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fullName">Nama Lengkap *</label>
+                                <input type="text" id="fullName" name="fullName" placeholder="Masukkan nama lengkap" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="whatsapp">Nomor WhatsApp *</label>
+                                <input type="tel" id="whatsapp" name="whatsapp" placeholder="08123456789" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="email@example.com">
+                        </div>
+
+                        <div class="form-navigation">
+                            <button type="button" class="btn-next" onclick="nextStep()">Selanjutnya</button>
+                        </div>
+                    </div>
+
+                    <div class="form-step" id="step2">
+                        <div class="step-header">
+                            <h3>Detail Tugas</h3>
+                            <p>Pilih jenis tugas dan berikan deskripsi lengkap</p>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="taskType">Jenis Tugas *</label>
+                            <select id="taskType" name="taskType" required onchange="updatePriceOptions()">
+                                <option value="">Pilih jenis tugas</option>
+                                <option value="essay">Essay & Artikel</option>
+                                <option value="math">Matematika & Statistik</option>
+                                <option value="presentation">Presentasi & Proposal</option>
+                                <option value="programming">Programming & Coding</option>
+                                <option value="research">Penelitian & Analisis</option>
+                                <option value="translation">Translation & Proofreading</option>
+                                <option value="thesis">Skripsi/Thesis</option>
+                                <option value="other">Lainnya</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="taskDescription">Deskripsi Tugas *</label>
+                            <textarea id="taskDescription" name="taskDescription" rows="6" placeholder="Berikan deskripsi detail tentang tugas yang ingin dikerjakan:&#10;- Mata kuliah/subjek&#10;- Jumlah halaman/soal&#10;- Format yang diinginkan&#10;- Referensi khusus&#10;- Instruksi tambahan" required></textarea>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="deadline">Deadline *</label>
+                                <input type="datetime-local" id="deadline" name="deadline" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="urgency">Tingkat Urgensi</label>
+                                <select id="urgency" name="urgency" onchange="updatePriceOptions()">
+                                    <option value="normal">Normal (>3 hari)</option>
+                                    <option value="urgent">Urgent (1-3 hari)</option>
+                                    <option value="super-urgent">Super Urgent (<24 jam)</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-navigation">
+                            <button type="button" class="btn-prev" onclick="prevStep()">Kembali</button>
+                            <button type="button" class="btn-next" onclick="nextStep()">Selanjutnya</button>
+                        </div>
+                    </div>
+
+                    <div class="form-step" id="step3">
+                        <div class="step-header">
+                            <h3>Harga & Pembayaran</h3>
+                            <p>Pilih paket harga dan upload bukti transfer</p>
+                        </div>
+
+                        <div class="price-options" id="priceOptions">
+                            <div class="price-card" data-price="basic">
+                                <h4>Basic</h4>
+                                <div class="price">Rp 50.000</div>
+                                <ul>
+                                    <li>Pengerjaan standar</li>
+                                    <li>1x revisi gratis</li>
+                                    <li>Deadline normal</li>
+                                </ul>
+                                <input type="radio" name="pricePackage" value="basic" id="basic">
+                                <label for="basic" class="price-select">Pilih Paket</label>
+                            </div>
+                            
+                            <div class="price-card popular" data-price="premium">
+                                <div class="popular-badge">Paling Populer</div>
+                                <h4>Premium</h4>
+                                <div class="price">Rp 100.000</div>
+                                <ul>
+                                    <li>Pengerjaan berkualitas tinggi</li>
+                                    <li>3x revisi gratis</li>
+                                    <li>Konsultasi gratis</li>
+                                    <li>Bonus referensi</li>
+                                </ul>
+                                <input type="radio" name="pricePackage" value="premium" id="premium">
+                                <label for="premium" class="price-select">Pilih Paket</label>
+                            </div>
+                            
+                            <div class="price-card" data-price="vip">
+                                <h4>VIP</h4>
+                                <div class="price">Rp 200.000</div>
+                                <ul>
+                                    <li>Pengerjaan premium</li>
+                                    <li>Unlimited revisi</li>
+                                    <li>Priority support 24/7</li>
+                                    <li>Garansi kepuasan</li>
+                                    <li>Bonus presentasi</li>
+                                </ul>
+                                <input type="radio" name="pricePackage" value="vip" id="vip">
+                                <label for="vip" class="price-select">Pilih Paket</label>
+                            </div>
+                        </div>
+
+                        <div class="payment-info">
+                            <h4>Informasi Pembayaran</h4>
+                            <div class="payment-methods">
+                                <div class="payment-method">
+                                    <i class="fas fa-university"></i>
+                                    <div>
+                                        <strong>Bank BSI</strong><br>
+                                        No. Rek: 9112874660<br>
+                                        A.n: Asmardyansah
+                                    </div>
+                                </div>
+                                <div class="payment-method">
+                                    <i class="fas fa-wallet"></i>
+                                    <div>
+                                        <strong>DANA</strong><br>
+                                        No: 082277403697<br>
+                                        A.n: Asmardyansah
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="paymentProof">Bukti Transfer *</label>
+                            <input type="file" id="paymentProof" name="paymentProof" accept="image/*" required>
+                            <small>Upload screenshot bukti transfer (JPG, PNG, max 5MB)</small>
+                        </div>
+
+                        <div class="form-navigation">
+                            <button type="button" class="btn-prev" onclick="prevStep()">Kembali</button>
+                            <button type="button" class="btn-next" onclick="nextStep()">Selanjutnya</button>
+                        </div>
+                    </div>
+
+                    <div class="form-step" id="step4">
+                        <div class="step-header">
+                            <h3>File & Submit</h3>
+                            <p>Upload file tugas (jika ada) dan submit pesanan</p>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="taskFiles">File Tugas</label>
+                            <input type="file" id="taskFiles" name="taskFiles" multiple accept=".pdf,.doc,.docx,.ppt,.pptx,.xls,.xlsx,.txt,.jpg,.png">
+                            <small>Upload file terkait tugas jika ada (PDF, DOC, PPT, XLS, gambar, max 10MB per file)</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="additionalNotes">Catatan Tambahan</label>
+                            <textarea id="additionalNotes" name="additionalNotes" rows="4" placeholder="Ada instruksi khusus atau informasi tambahan?"></textarea>
+                        </div>
+
+                        <div class="order-summary">
+                            <h4>Ringkasan Pesanan</h4>
+                            <div class="summary-content" id="orderSummary">
+                                <!-- Summary will be populated by JavaScript -->
+                            </div>
+                        </div>
+
+                        <div class="form-navigation">
+                            <button type="button" class="btn-prev" onclick="prevStep()">Kembali</button>
+                            <button type="submit" class="btn-submit">
+                                <i class="fas fa-paper-plane"></i>
+                                Submit Pesanan
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Progress Bar -->
+                    <div class="progress-bar">
+                        <div class="progress-step active" data-step="1">
+                            <div class="step-circle">1</div>
+                            <span>Info Personal</span>
+                        </div>
+                        <div class="progress-step" data-step="2">
+                            <div class="step-circle">2</div>
+                            <span>Detail Tugas</span>
+                        </div>
+                        <div class="progress-step" data-step="3">
+                            <div class="step-circle">3</div>
+                            <span>Pembayaran</span>
+                        </div>
+                        <div class="progress-step" data-step="4">
+                            <div class="step-circle">4</div>
+                            <span>Submit</span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Mengapa Memilih JokiTugaskuOfficial?</h2>
+                    <p>Dengan pengalaman bertahun-tahun di bidang akademik, kami telah membantu ribuan mahasiswa dan profesional menyelesaikan tugas-tugas mereka dengan kualitas terbaik.</p>
+                    <p>Tim kami terdiri dari para ahli di berbagai bidang yang berkomitmen untuk memberikan hasil terbaik sesuai dengan standar akademik internasional.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Klien Puas</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">Tingkat Kepuasan</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">Support</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Original</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="about-image">
+                        <i class="fas fa-award"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Hubungi Kami Sekarang</h2>
+                    <p>Siap membantu Anda 24/7. Konsultasi gratis untuk menentukan solusi terbaik sesuai kebutuhan Anda.</p>
+                    <ul class="contact-methods">
+                        <li>
+                            <i class="fab fa-whatsapp"></i>
+                            <span>WhatsApp: +62 851-7998-1553</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>Email: info@jokitugaskuofficial.com</span>
+                        </li>
+                        <li>
+                            <i class="fab fa-telegram"></i>
+                            <span>Telegram: @jokitugaskuofficial</span>
+                        </li>
+                        <li>
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram: @jokitugaskuofficial</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" placeholder="Masukkan nama lengkap" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactEmail">Email</label>
+                            <input type="email" id="contactEmail" name="email" placeholder="Masukkan email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subjek</label>
+                            <input type="text" id="subject" name="subject" placeholder="Jenis tugas/layanan yang dibutuhkan" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" name="message" placeholder="Deskripsikan detail tugas dan requirements..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p>&copy; 2024 JokiTugaskuOfficial. All rights reserved. | Solusi Akademik Profesional Terpercaya</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+    <script src="form-handler.js"></script>
+</body>
+</html>
